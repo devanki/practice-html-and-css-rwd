@@ -8,7 +8,8 @@
     background-color: #fff;
     min-height: 320px;
     min-width: 320px;
-    max-width: 600px;
+    width: 600px;
+    max-width: 100%;
     text-align: justify;
 }
 
@@ -20,4 +21,6 @@
     border: 150px solid #dcdcdc;
     border-right-color: transparent;
     border-bottom-color: transparent;    
+    shape-outside: polygon(100% 0, 0 100%,1% 100% );
+    clip-path: polygon(0% 0, 0 100% , 360% 0%);
 }
